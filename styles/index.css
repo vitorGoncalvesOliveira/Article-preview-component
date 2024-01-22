@@ -56,7 +56,8 @@ body main section div #tooltip {
   display: none;
   flex-direction: row;
   padding: 1rem;
-  width: 15%;
+  width: -moz-max-content;
+  width: max-content;
   align-items: center;
   justify-content: space-between;
   position: absolute;
@@ -72,9 +73,9 @@ body main section div #tooltip {
 body main section div #tooltip #arrow {
   position: absolute;
   background: hsl(217, 19%, 35%);
-  width: 30px;
-  height: 30px;
-  margin-left: 60px;
+  width: 8px;
+  height: 8px;
+  margin-left: 0;
   margin-top: 20px;
   transform: rotate(45deg);
 }
@@ -87,6 +88,7 @@ body main section div .footer-mobile {
   padding: 1rem 0;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 body main section div .footer-mobile #avatar {
   border-radius: 50%;

@@ -1,8 +1,5 @@
 @use './variaveis/variaveis';
 
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -72,8 +69,7 @@ body {
                     display: none;
                     flex-direction: row;
                     padding: 1rem;
-                    width: 15%;
-
+                    width: max-content;
                     align-items: center;
                     justify-content: space-between;
                     position: absolute;
@@ -88,10 +84,11 @@ body {
                     #arrow {
                         position: absolute;
                         background: variaveis.$VeryDarkGrayishBlue;
-                        width: 30px;
-                        height: 30px;
-                        margin-left: 60px;
+                        width: 8px;
+                        height: 8px;
+                        margin-left: 0;
                         margin-top: 20px;
+                        
                         transform: rotate(45deg);
                       }      
                       img {
@@ -106,7 +103,7 @@ body {
                     padding: 1rem 0;
                     display: flex;
                     align-items: center;
-
+                    width: 100%;
 
 
                     #avatar {
